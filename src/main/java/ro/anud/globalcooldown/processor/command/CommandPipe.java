@@ -30,4 +30,9 @@ public class CommandPipe<OriginalInput, LastReturn> implements Command<OriginalI
     public LastReturn execute(OriginalInput arg) {
         return start.apply(arg);
     }
+
+    @Override
+    public String toString() {
+        return "CommandPipe {start: " + start.toString() + "}";
+    }
 }
