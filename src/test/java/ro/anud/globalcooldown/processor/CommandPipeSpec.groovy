@@ -1,6 +1,5 @@
 package ro.anud.globalcooldown.processor
 
-import ro.anud.globalcooldown.processor.command.Command
 import ro.anud.globalcooldown.processor.command.CommandPipe
 import spock.lang.Specification
 
