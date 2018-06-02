@@ -1,4 +1,4 @@
-package ro.anud.globalcooldown.processor.command;
+package ro.anud.commandSet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class CommandPipe<OriginalInput, LastReturn> implements Command<OriginalI
         return new CommandPipe<>(this, function);
     }
 
-    public <T> Conditional<OriginalInput, LastReturn> when(Predicate<OriginalInput> predicate) {
+    public Conditional<OriginalInput, LastReturn> when(Predicate<OriginalInput> predicate) {
         return new Conditional<>(this, predicate);
     }
 

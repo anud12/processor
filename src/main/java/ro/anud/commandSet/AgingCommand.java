@@ -1,4 +1,4 @@
-package ro.anud.globalcooldown.processor.command;
+package ro.anud.commandSet;
 
 import java.util.Objects;
 

@@ -1,12 +1,11 @@
-package ro.anud.globalcooldown.processor;
+package ro.anud.commandSet;
 
 import org.junit.Test;
-import ro.anud.globalcooldown.processor.command.Command;
-import ro.anud.globalcooldown.processor.command.CommandPipe;
-import ro.anud.globalcooldown.processor.command.OptionalFuture;
-import ro.anud.globalcooldown.processor.command.ParalelCommandBuilder;
+import ro.anud.commandSet.Command;
+import ro.anud.commandSet.CommandPipe;
+import ro.anud.commandSet.OptionalFuture;
+import ro.anud.commandSet.ParalelCommandBuilder;
 
-import java.util.concurrent.Executors;
 import java.util.concurrent.ForkJoinPool;
 
 public class ParalelCommandTest {

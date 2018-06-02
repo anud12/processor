@@ -1,6 +1,6 @@
-package ro.anud.globalcooldown.processor
+package ro.anud.commandSet
 
-import ro.anud.globalcooldown.processor.command.CommandPipe
+import ro.anud.commandSet.CommandPipe
 import spock.lang.Specification
 
 import java.util.function.Function

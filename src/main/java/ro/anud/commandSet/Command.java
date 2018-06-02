@@ -1,4 +1,4 @@
-package ro.anud.globalcooldown.processor.command;
+package ro.anud.commandSet;
 
 public interface Command<T, R> {
 

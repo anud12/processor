@@ -1,8 +1,8 @@
-package ro.anud.globalcooldown.processor;
+package ro.anud.commandSet;
 
 import org.junit.Test;
-import ro.anud.globalcooldown.processor.command.Command;
-import ro.anud.globalcooldown.processor.command.CommandPipe;
+import ro.anud.commandSet.Command;
+import ro.anud.commandSet.CommandPipe;
 
 import java.util.stream.Stream;
 

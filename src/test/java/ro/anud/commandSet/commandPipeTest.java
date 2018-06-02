@@ -1,8 +1,8 @@
-package ro.anud.globalcooldown.processor;
+package ro.anud.commandSet;
 
 import org.junit.Test;
-import ro.anud.globalcooldown.processor.command.AgingCommand;
-import ro.anud.globalcooldown.processor.command.CommandPipe;
+import ro.anud.commandSet.AgingCommand;
+import ro.anud.commandSet.CommandPipe;
 
 public class commandPipeTest {
 
